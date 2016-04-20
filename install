@@ -44,6 +44,7 @@ else
   git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe;
   cd ~/.vim/bundle/YouCompleteMe;
   # for nodejs
+  git submodule update --init --recursive
   ./install.py --tern-completer;
 fi;
 
